@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.6" serialNumber="urn:uuid:a774974d-cd2d-4c08-a33d-eb61518e5a5f" version="1">
+  <metadata>
+    <timestamp>2025-03-27T10:40:30-07:00</timestamp>
+    <tools>
+      <tool>
+        <vendor>CycloneDX</vendor>
+        <name>cyclonedx-gomod</name>
+        <version>v1.9.0</version>
+        <hashes>
+          <hash alg="MD5">dfc2cccebdaadab9c808c7bf4648424a</hash>
+          <hash alg="SHA-1">9000bc88ee4643535b4c609aaa45ef92d20acc67</hash>
+          <hash alg="SHA-256">d43c9029c19761fe8e4462c1abc2bcf3f3f15e3d10cb81dfd4e389e7fb89f1df</hash>
+          <hash alg="SHA-384">3737872d0f6718c1b940854beaa2b705524839956e93c779022d55a16af2716911153036545c78a7275997ec9e0e3ba9</hash>
+          <hash alg="SHA-512">3fae87ba2007e2308e64eff70625de64da02ea02229af6d6c06b8a08800aa975be04088bc7be266ee587bc7669d744e35ce4676ebf83c7253436016b20580586</hash>
+        </hashes>
+        <externalReferences>
+          <reference type="vcs">
+            <url>https://github.com/CycloneDX/cyclonedx-gomod</url>
+          </reference>
+          <reference type="website">
+            <url>https://cyclonedx.org</url>
+          </reference>
+        </externalReferences>
+      </tool>
+    </tools>
+    <component bom-ref="pkg:golang/jeffm/sample-server?type=module#server" type="application">
+      <name>jeffm/sample-server</name>
+      <purl>pkg:golang/jeffm/sample-server?type=module&amp;goos=linux&amp;goarch=amd64#server</purl>
+    </component>
+    <properties>
+      <property name="cdx:gomod:binary:hash:MD5">a7c4425521ece8fb8d6fbe30a9cb1354</property>
+      <property name="cdx:gomod:binary:hash:SHA-1">36bc212512cf825146a068ae2aa9b62e92abcdc0</property>
+      <property name="cdx:gomod:binary:hash:SHA-256">adbc555cfe9b5aceb62cd54016aacec603a22ea01347f76e89af4c29ffdb0831</property>
+      <property name="cdx:gomod:binary:hash:SHA-384">0a780a9068dbae1f9654a525e7702e23522a58a6131a48c248db0f733aee1d73fe618b0c07be240b907508b7b6f54310</property>
+      <property name="cdx:gomod:binary:hash:SHA-512">e27c10a24bf47a1d0387938a735ea6128e141af0132f81b8c7db61765c214393791ce4b9f4914035e3cc2fd6f7080a4c250a204b189ffef1d766359f7d4429bc</property>
+      <property name="cdx:gomod:binary:name">server</property>
+      <property name="cdx:gomod:build:compiler">gc</property>
+      <property name="cdx:gomod:build:env:CGO_ENABLED">1</property>
+      <property name="cdx:gomod:build:env:GOARCH">amd64</property>
+      <property name="cdx:gomod:build:env:GOOS">linux</property>
+      <property name="cdx:gomod:build:env:GOVERSION">go1.23.5</property>
+    </properties>
+  </metadata>
+  <components>
+    <component bom-ref="pkg:golang/github.com/felixge/httpsnoop@v1.0.3?type=module" type="library">
+      <name>github.com/felixge/httpsnoop</name>
+      <version>v1.0.3</version>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-256">b3f9e3f860acc17633379bf60e934cb8c4187bed030f0b79595094e825817579</hash>
+      </hashes>
+      <purl>pkg:golang/github.com/felixge/httpsnoop@v1.0.3?type=module&amp;goos=linux&amp;goarch=amd64</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/felixge/httpsnoop</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component bom-ref="pkg:golang/github.com/gorilla/handlers@v1.5.2?type=module" type="library">
+      <name>github.com/gorilla/handlers</name>
+      <version>v1.5.2</version>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-256">70b4d44ac36481cc21811aaf08d99d6d1586d00dcde05f8cda758a752730c841</hash>
+      </hashes>
+      <purl>pkg:golang/github.com/gorilla/handlers@v1.5.2?type=module&amp;goos=linux&amp;goarch=amd64</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/gorilla/handlers</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component bom-ref="pkg:golang/github.com/gorilla/mux@v1.8.1?type=module" type="library">
+      <name>github.com/gorilla/mux</name>
+      <version>v1.8.1</version>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-256">4ee04be3db57c20ac561686aacd82b50d118f76bbcd523e1bbbb137734048966</hash>
+      </hashes>
+      <purl>pkg:golang/github.com/gorilla/mux@v1.8.1?type=module&amp;goos=linux&amp;goarch=amd64</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/gorilla/mux</url>
+        </reference>
+      </externalReferences>
+    </component>
+  </components>
+  <dependencies>
+    <dependency ref="pkg:golang/jeffm/sample-server?type=module#server">
+      <dependency ref="pkg:golang/github.com/felixge/httpsnoop@v1.0.3?type=module"></dependency>
+      <dependency ref="pkg:golang/github.com/gorilla/handlers@v1.5.2?type=module"></dependency>
+      <dependency ref="pkg:golang/github.com/gorilla/mux@v1.8.1?type=module"></dependency>
+    </dependency>
+    <dependency ref="pkg:golang/github.com/felixge/httpsnoop@v1.0.3?type=module"></dependency>
+    <dependency ref="pkg:golang/github.com/gorilla/handlers@v1.5.2?type=module"></dependency>
+    <dependency ref="pkg:golang/github.com/gorilla/mux@v1.8.1?type=module"></dependency>
+  </dependencies>
+  <compositions>
+    <composition>
+      <aggregate>complete</aggregate>
+      <dependencies>
+        <dependency ref="pkg:golang/jeffm/sample-server?type=module#server"></dependency>
+      </dependencies>
+    </composition>
+    <composition>
+      <aggregate>unknown</aggregate>
+      <dependencies>
+        <dependency ref="pkg:golang/github.com/felixge/httpsnoop@v1.0.3?type=module"></dependency>
+        <dependency ref="pkg:golang/github.com/gorilla/handlers@v1.5.2?type=module"></dependency>
+        <dependency ref="pkg:golang/github.com/gorilla/mux@v1.8.1?type=module"></dependency>
+      </dependencies>
+    </composition>
+  </compositions>
+</bom>

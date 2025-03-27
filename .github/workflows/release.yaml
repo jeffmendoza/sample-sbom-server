@@ -1,0 +1,19 @@
+name: Build
+on:
+  push:
+    branches:
+    - main
+    tags:
+    - '*'
+permissions:
+  contents: read
+  packages: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-go@v5
+    - uses: ko-build/setup-ko@v0.8
+    - run: ko build --tags=${{ github.ref_name }},latest ./server
+    - run: ko build --tags=${{ github.ref_name }},latest ./job

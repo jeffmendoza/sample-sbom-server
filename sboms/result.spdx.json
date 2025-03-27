@@ -1,0 +1,238 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "SCALIBR-generated SPDX",
+  "documentNamespace": "https://spdx.google/5189696f-d928-4499-b039-3dd0d42638f6",
+  "creationInfo": {
+    "creators": [
+      "Tool: SCALIBR"
+    ],
+    "created": "2025-03-27T17:13:57Z"
+  },
+  "packages": [
+    {
+      "name": "main",
+      "SPDXID": "SPDXRef-Package-main-7c1400dc-8bdf-43c3-96d6-12c3c1030f58",
+      "versionInfo": "0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false
+    },
+    {
+      "name": "github.com/felixge/httpsnoop",
+      "SPDXID": "SPDXRef-Package-github.com-felixge-httpsnoop-bf3b2e60-f58e-45cf-b2d1-d0018a4f3a9b",
+      "versionInfo": "1.0.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "sourceInfo": "Identified by the go/gomod extractor from go.mod",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com%2Ffelixge%2Fhttpsnoop@1.0.3"
+        }
+      ]
+    },
+    {
+      "name": "github.com/gorilla/handlers",
+      "SPDXID": "SPDXRef-Package-github.com-gorilla-handlers-8fd6cd7e-1977-4146-b9d8-92ab1d18ade6",
+      "versionInfo": "1.5.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "sourceInfo": "Identified by the go/gomod extractor from go.mod",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com%2Fgorilla%2Fhandlers@1.5.2"
+        }
+      ]
+    },
+    {
+      "name": "github.com/gorilla/mux",
+      "SPDXID": "SPDXRef-Package-github.com-gorilla-mux-dfe6f82e-0a20-4b94-a9b1-11dfe0ef177a",
+      "versionInfo": "1.8.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "sourceInfo": "Identified by the go/gomod extractor from go.mod",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com%2Fgorilla%2Fmux@1.8.1"
+        }
+      ]
+    },
+    {
+      "name": "github.com/mattn/go-colorable",
+      "SPDXID": "SPDXRef-Package-github.com-mattn-go-colorable-2c3a643f-8442-4c59-9687-b46a8232b2eb",
+      "versionInfo": "0.1.13",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "sourceInfo": "Identified by the go/gomod extractor from go.mod",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com%2Fmattn%2Fgo-colorable@0.1.13"
+        }
+      ]
+    },
+    {
+      "name": "github.com/mattn/go-isatty",
+      "SPDXID": "SPDXRef-Package-github.com-mattn-go-isatty-5b8d6ba8-4c4a-4d04-9217-8633c5b78cac",
+      "versionInfo": "0.0.19",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "sourceInfo": "Identified by the go/gomod extractor from go.mod",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com%2Fmattn%2Fgo-isatty@0.0.19"
+        }
+      ]
+    },
+    {
+      "name": "github.com/rs/zerolog",
+      "SPDXID": "SPDXRef-Package-github.com-rs-zerolog-67675e9e-cfd3-4fa8-80a0-77ca4e0b69e1",
+      "versionInfo": "1.34.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "sourceInfo": "Identified by the go/gomod extractor from go.mod",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com%2Frs%2Fzerolog@1.34.0"
+        }
+      ]
+    },
+    {
+      "name": "golang.org/x/sys",
+      "SPDXID": "SPDXRef-Package-golang.org-x-sys-45d1aa1f-e4a1-49bf-ba15-20a05d94a9a9",
+      "versionInfo": "0.12.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "sourceInfo": "Identified by the go/gomod extractor from go.mod",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/golang.org%2Fx%2Fsys@0.12.0"
+        }
+      ]
+    },
+    {
+      "name": "stdlib",
+      "SPDXID": "SPDXRef-Package-stdlib-fa1d9035-47c3-428f-ad90-737c1cfe6430",
+      "versionInfo": "1.23.5",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "sourceInfo": "Identified by the go/gomod extractor from go.mod",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/stdlib@1.23.5"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Document",
+      "relatedSpdxElement": "SPDXRef-Package-main-7c1400dc-8bdf-43c3-96d6-12c3c1030f58",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-main-7c1400dc-8bdf-43c3-96d6-12c3c1030f58",
+      "relatedSpdxElement": "SPDXRef-Package-github.com-felixge-httpsnoop-bf3b2e60-f58e-45cf-b2d1-d0018a4f3a9b",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-github.com-felixge-httpsnoop-bf3b2e60-f58e-45cf-b2d1-d0018a4f3a9b",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-main-7c1400dc-8bdf-43c3-96d6-12c3c1030f58",
+      "relatedSpdxElement": "SPDXRef-Package-github.com-gorilla-handlers-8fd6cd7e-1977-4146-b9d8-92ab1d18ade6",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-github.com-gorilla-handlers-8fd6cd7e-1977-4146-b9d8-92ab1d18ade6",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-main-7c1400dc-8bdf-43c3-96d6-12c3c1030f58",
+      "relatedSpdxElement": "SPDXRef-Package-github.com-gorilla-mux-dfe6f82e-0a20-4b94-a9b1-11dfe0ef177a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-github.com-gorilla-mux-dfe6f82e-0a20-4b94-a9b1-11dfe0ef177a",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-main-7c1400dc-8bdf-43c3-96d6-12c3c1030f58",
+      "relatedSpdxElement": "SPDXRef-Package-github.com-mattn-go-colorable-2c3a643f-8442-4c59-9687-b46a8232b2eb",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-github.com-mattn-go-colorable-2c3a643f-8442-4c59-9687-b46a8232b2eb",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-main-7c1400dc-8bdf-43c3-96d6-12c3c1030f58",
+      "relatedSpdxElement": "SPDXRef-Package-github.com-mattn-go-isatty-5b8d6ba8-4c4a-4d04-9217-8633c5b78cac",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-github.com-mattn-go-isatty-5b8d6ba8-4c4a-4d04-9217-8633c5b78cac",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-main-7c1400dc-8bdf-43c3-96d6-12c3c1030f58",
+      "relatedSpdxElement": "SPDXRef-Package-github.com-rs-zerolog-67675e9e-cfd3-4fa8-80a0-77ca4e0b69e1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-github.com-rs-zerolog-67675e9e-cfd3-4fa8-80a0-77ca4e0b69e1",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-main-7c1400dc-8bdf-43c3-96d6-12c3c1030f58",
+      "relatedSpdxElement": "SPDXRef-Package-golang.org-x-sys-45d1aa1f-e4a1-49bf-ba15-20a05d94a9a9",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-golang.org-x-sys-45d1aa1f-e4a1-49bf-ba15-20a05d94a9a9",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-main-7c1400dc-8bdf-43c3-96d6-12c3c1030f58",
+      "relatedSpdxElement": "SPDXRef-Package-stdlib-fa1d9035-47c3-428f-ad90-737c1cfe6430",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-stdlib-fa1d9035-47c3-428f-ad90-737c1cfe6430",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}
