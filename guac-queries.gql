@@ -1,0 +1,63 @@
+query AllSBOMs {
+  HasSBOM(hasSBOMSpec: {}) {
+    id
+    uri
+    algorithm
+    digest
+    downloadLocation
+    knownSince
+    origin
+    collector
+    documentRef
+  }
+}
+
+query SBOMPackages($sbomid:ID!) {
+  HasSBOM(hasSBOMSpec: {id: $sbomid}) {
+    includedSoftware {
+      ... on Package {
+        type
+        namespaces {
+          namespace
+          names {
+            name
+            versions {
+              version
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+query SBOMRelationships($sbomid:ID!) {
+  HasSBOM(hasSBOMSpec: {id: $sbomid}) {
+    includedDependencies {
+      package {
+        type
+        namespaces {
+          namespace
+          names {
+            name
+            versions {
+              version
+            }
+          }
+        }
+      }
+      dependencyPackage {
+        type
+        namespaces {
+          namespace
+          names {
+            name
+            versions {
+              version
+            }
+          }
+        }
+      }
+    }
+  }
+}
