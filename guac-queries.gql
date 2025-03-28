@@ -12,6 +12,20 @@ query AllSBOMs {
   }
 }
 
+query FileSBOMs {
+  HasSBOM(hasSBOMSpec: {collector:"FileCollector"}) {
+    id
+    uri
+    algorithm
+    digest
+    downloadLocation
+    knownSince
+    origin
+    collector
+    documentRef
+  }
+}
+
 query SBOMPackages($sbomid:ID!) {
   HasSBOM(hasSBOMSpec: {id: $sbomid}) {
     includedSoftware {
